@@ -1,6 +1,6 @@
 {
-  "latestVersion": "1.0.8",
-  "minSupportedVersion": "1.0.0",
+  "latestVersion": "1.0.7",
+  "minSupportedVersion": "1.0.5",
   "forceUpdate": false,
   "title": "Update Available",
   "message": "A new version of CV & PDF Editor is here with faster exports and new resume templates.",
