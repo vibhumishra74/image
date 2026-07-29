@@ -1,0 +1,32 @@
+{
+  "_readme": "Controls the in-app rating/feedback modal for CV & PDF Editor. Keys starting with _ are documentation only and ignored by the app. Any field you delete falls back to the built-in default baked into the app. Changes go live without an app release, but jsDelivr needs a few minutes to refresh.",
+
+  "_enabled": "Master switch. false hides the feedback modal everywhere, both on launch and after export. Use this to kill the prompt in production.",
+  "enabled": true,
+
+  "_showOnLaunch": "Show the modal shortly after the app opens. false = only ever ask right after an export.",
+  "showOnLaunch": true,
+
+  "_showOnExport": "Show the modal right after the user exports a resume or cover letter PDF. false = only ever ask on launch.",
+  "showOnExport": true,
+
+  "_requireExport": "true = never ask until the user has exported at least one PDF. Set false to also ask users who have not exported anything yet.",
+  "requireExport": true,
+
+  "_gapMinutes": "Minimum minutes between two showings of the modal. Stops it reappearing when a user dismisses it, kills the app and immediately reopens. The clock starts the moment the modal appears, not when it is closed.",
+  "gapMinutes": 10,
+
+  "_launchDelayMs": "Milliseconds to wait after app launch before showing the modal, so ads, analytics and the update check settle first. 4000 = 4 seconds.",
+  "launchDelayMs": 4000,
+
+  "_maxShows": "Stop asking after this many showings, counted across the whole install. 0 = ask forever until the user rates. Example: 3 means a user who keeps dismissing is asked 3 times and then left alone.",
+  "maxShows": 0,
+
+  "_title": "Headline text at the top of the modal.",
+  "title": "Enjoying CV Editor?",
+
+  "_subtitle": "Smaller line under the headline, above the star row.",
+  "subtitle": "How would you rate your experience?",
+
+  "_notAffected": "Two rules are hardcoded and cannot be changed from here: (1) once a user submits feedback or taps through to the Play Store the modal never shows again, and (2) the modal never stacks on top of the app-update modal."
+}
