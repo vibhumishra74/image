@@ -1,15 +1,13 @@
 {
-  "latestVersion": "1.0.7",
+  "latestVersion": "1.1.0",
   "minSupportedVersion": "1.0.5",
   "forceUpdate": false,
   "title": "Update Available",
-  "message": "A new version of CV & PDF Editor is here with faster exports and new resume templates.",
+  "message": "A new version of CV & PDF Editor is available. Update now to get the latest features, improvements and fixes.",
   "releaseDate": "2026-07-25",
   "features": [
-    "600+ new data-driven resume templates",
-    "Swappable header styles for every template",
-    "Faster PDF export and smaller file sizes",
-    "Improved cover letter editor",
+    "New features and enhancements",
+    "Performance improvements",
     "Bug fixes and stability improvements"
   ]
 }
